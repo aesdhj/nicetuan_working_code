@@ -1,3 +1,4 @@
 十荟团日常工作代码
 
 tmp_主要利用selenium和appium实现数据导出自动化，并加工转化为tableau每日更新的基础数数据，tableau样表详见https://public.tableau.com/app/profile/aesdhj/viz/2_5_16464059307460/sheet0
+hc_用于刷单用户识别，单点阈值来源于风控部门，对于多账号刷单利用余弦相似度来检测购买的商品是否相似，来判断是否未同一个人，辅助加上微信昵称相似度
